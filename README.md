@@ -47,7 +47,7 @@ import { SnackbarProvider } from 'notistack';
 ```
 
 
-**2:** Export any component that needs to send notification using `withSnackbar`. By doing this, you'll have access to methods `enqueueSnackbar` and `closeSnackbar`, where the former can be used to send snackbars.
+2: Export any component that needs to send notification using `withSnackbar`. By doing this, you'll have access to methods `enqueueSnackbar` and `closeSnackbar`, where the former can be used to send snackbars.
 
 ```javascript
 import { withSnackbar } from 'notistack';
